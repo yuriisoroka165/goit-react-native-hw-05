@@ -36,7 +36,7 @@ const RegistrationScreen = () => {
     };
 
     const handleSubmitButtonPress = () => {
-        navigation.navigate("Map");
+        navigation.navigate("MapScreen");
     };
 
     const uploadAvatar = async () => {
@@ -162,7 +162,7 @@ const RegistrationScreen = () => {
                             Вже є акаунт?
                         </Text>
                         <TouchableOpacity
-                            onPress={() => navigation.navigate("Login")}
+                            onPress={() => navigation.navigate("LoginScreen")}
                         >
                             <Text
                                 style={{
